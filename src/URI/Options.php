@@ -150,4 +150,13 @@ class Options
 
         return $this;
     }
+    
+    /**
+     * Response type
+     *
+     * @param string $type Use response type
+     */
+    public function type($type) {
+        $this->options['type'] = (string) $type;
+    }
 }
